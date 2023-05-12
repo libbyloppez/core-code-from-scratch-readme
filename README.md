@@ -9,6 +9,14 @@ Preparacion: en un bowl grande mezclar la harina con agua pizca de sal pizca de 
 
 ### Tarea 2
 hot N cold
-convertir grados de farhenheit a celsius
-convertir grados de celsius a farhenheit
+* convertir grados de farhenheit a celsius
+* convertir grados de celsius a farhenheit
+* usar formula
+* ingresar valores
+* ºF = ºC x 1.8 + 32. 
+* ºC = (ºF-32) ÷ 1.8.
+
+### tarea 3
+
+
 

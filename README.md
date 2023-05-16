@@ -69,6 +69,16 @@
 * ya podemos saber la edad
 * finish
 
+### Tarea 6
+### tesoros
+* hay 3 cofres probablemente mas de uno tiene un tesoro, cada cofre tiene un mensaje y cada mensaje es falso.
+* entonces cada cofre tiene un mensaje que no tiene logica.
+* analizar las propocisiones.
+* llegar a una logica deductiva
+* cofre de la derecha dice Cofre derecho: Solo uno de estos cofres tiene tesoros.
+
+
+
 
 
 

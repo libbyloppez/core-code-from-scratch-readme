@@ -12,18 +12,23 @@
 ### Tarea 2
 hot N cold
 * convertir grados de celsius a farhenheit
-*  ºC = (ºF-32) ÷ 1.8.
-*  ingresar valores
-*  34
-*  (34-32) ÷ 1.8.
+*  ingresar valor de celsius
 ºF = ºC x 1.8 + 32. Para convertir de ºF a ºC use la fórmula:
-* ingresar valores
-* 34
+* ingresar valores de farhenheit
 * 
 * ºF = ºC x 1.8 + 32. 
 
 
 ### tarea 3
+
+### Tarea 4
+* NUmeros
+* [Diagrama de flujo.docx](https://github.com/libbyloppez/core-code-from-scratch-readme/files/11484043/Diagrama.de.flujo.docx)
+
+* Primero escribimos ! []() .
+Después escribimos, dentro de los corchetes, el texto alternativo. ...
+Después escribimos, dentro de los paréntesis, la ubicación del archivo (ya sea una url o una ubicación dentro de algun folder local).
+16 sept 2020
 
 
 

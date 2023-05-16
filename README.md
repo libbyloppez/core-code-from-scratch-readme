@@ -16,11 +16,17 @@
 ### hot N cold
 * convertir grados de celsius a farhenheit
 *  ingresar valor de celsius
-ºF = ºC x 1.8 + 32. Para convertir de ºF a ºC use la fórmula:
-* ingresar valores de farhenheit
-* 
-* ºF = ºC x 1.8 + 32. 
+* (0 °C × 9/5) + 32 = 
+* la formula hace la conversion
+* ya sabemos el resulatado
 
+
+* Para convertir de ºF a ºC use la fórmula:
+* ºF = ºC x 1.8 + 32. 
+* ingresar valores de farhenheit
+* la formula hace la conversion
+* imprimir la respuesta
+* fin de algoritmo
 
 ### Tarea 3
 ### geometria

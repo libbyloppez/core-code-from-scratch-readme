@@ -53,6 +53,16 @@
 ### numeros 
 * [Diagrama de flujo.docx](https://github.com/libbyloppez/core-code-from-scratch-readme/files/11484043/Diagrama.de.flujo.docx)
 
+### Tarea 5
+### fecha de nacimiento
+* preguntar en que fecha nacio 
+* si no esta presente la persona, ver su DPI
+* restar el año de nacimiento con el año en curso
+* ingresar valor "numeros" 
+* imprimir el resultado
+* ya podemos saber la edad
+* finish
+
 
 
 

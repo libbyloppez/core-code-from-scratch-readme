@@ -12,8 +12,14 @@
 ### Tarea 2
 hot N cold
 * convertir grados de celsius a farhenheit
-* usar formula
+*  ºC = (ºF-32) ÷ 1.8.
+*  ingresar valores
+*  34
+*  (34-32) ÷ 1.8.
+ºF = ºC x 1.8 + 32. Para convertir de ºF a ºC use la fórmula:
 * ingresar valores
+* 34
+* 
 * ºF = ºC x 1.8 + 32. 
 
 

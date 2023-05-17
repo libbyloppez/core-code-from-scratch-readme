@@ -71,13 +71,20 @@
 
 ### Tarea 6
 ### tesoros
-* hay 3 cofres probablemente mas de uno tiene un tesoro, cada cofre tiene un mensaje y cada mensaje es falso.
+* hay 3 cofres probablemente mas de uno tiene un tesoro
+*  cada cofre tiene un mensaje y cada mensaje es falso.
 * entonces cada cofre tiene un mensaje que no tiene logica.
 * analizar las propocisiones.
 * llegar a una logica deductiva
-* cofre de la derecha dice Cofre derecho: Solo uno de estos cofres tiene tesoros.
+* Cofre izquierdo: El cofre del medio tiene un tesoro
+* Cofre medio: Todos estos cofres tienen tesoros dentro
+* Cofre derecho: Solo uno de estos cofres tiene tesoros
+* fin de algoritmo
 
-' ''js
+
+* 
+
+''' js
 Algoritmo ejercicioSuma
 	Escribir "Ingrese el primer numero:"
 	Leer variableQueGuardaElPrimerNumero

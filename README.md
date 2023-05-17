@@ -77,6 +77,19 @@
 * llegar a una logica deductiva
 * cofre de la derecha dice Cofre derecho: Solo uno de estos cofres tiene tesoros.
 
+' ''js
+Algoritmo ejercicioSuma
+	Escribir "Ingrese el primer numero:"
+	Leer variableQueGuardaElPrimerNumero
+	
+	Escribir "Ingrese el segundo numero"
+	Leer A
+	
+	escribir "el resultado es:" , A +  variableQueGuardaElPrimerNumero
+	
+	
+FinAlgoritmo
+'''
 
 
 

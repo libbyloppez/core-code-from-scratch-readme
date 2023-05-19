@@ -1,16 +1,15 @@
 ### Tarea 1
 ### Problema Logico
-- El profesor le pregunta a sus 5 estudiantes si estudiaron matemáticas ayer.
-- pregumtar a cada uno si hizo la tarea
-- 
+- profesor pregunta a 5 estudiantes, estudiaron.
+- Alice: "Nadie estudió".
+- Bob: "1 estudió".
+- Charlie: "2 estudiaron".
+- Dan: "3 estudiaron".
+- Eva: "4 estudiaron".
+- estudiaron dicen verdad 
+- nadie estudio mienten.
+- ¿Quién dice verdad?
+- fin
 
-Alice: "Nadie estudió matemáticas ayer".
-Bob: "1 persona estudió matemáticas ayer".
-Charlie: "2 personas estudiaron matemáticas ayer".
-Dan: "3 personas estudiaron matemáticas ayer".
-Eva: "4 personas estudiaron matemáticas ayer".
-
-El profesor sabe que solo aquellos que estudiaron estarían diciendo la verdad y aquellos que no estarían mintiendo. ¿Quién está diciendo la verdad?
-
-Salida esperada
-Bob
+### Tarea 2
+###

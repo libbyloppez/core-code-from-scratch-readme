@@ -1,6 +1,8 @@
 ### Tarea 1
 ### Problema Logico
 - El profesor le pregunta a sus 5 estudiantes si estudiaron matemáticas ayer.
+- pregumtar a cada uno si hizo la tarea
+- 
 
 Alice: "Nadie estudió matemáticas ayer".
 Bob: "1 persona estudió matemáticas ayer".
@@ -11,3 +13,4 @@ Eva: "4 personas estudiaron matemáticas ayer".
 El profesor sabe que solo aquellos que estudiaron estarían diciendo la verdad y aquellos que no estarían mintiendo. ¿Quién está diciendo la verdad?
 
 Salida esperada
+Bob

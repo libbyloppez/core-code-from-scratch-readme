@@ -13,5 +13,4 @@
 
 ### Tarea 2
 ### Tazon cereal con leche
-
-<mxGraphModel><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="560" y="320" as="targetPoint"/><mxPoint x="610" y="310" as="sourcePoint"/></mxGeometry></mxCell></root></mxGraphModel>
+![image](https://github.com/libbyloppez/core-code-from-scratch-readme/assets/132409571/28eac37f-effe-456c-be8f-f24087885981)

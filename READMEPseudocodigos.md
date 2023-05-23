@@ -15,11 +15,19 @@
 ### Tazon cereal con leche
 ![image](https://github.com/libbyloppez/core-code-from-scratch-readme/assets/132409571/28eac37f-effe-456c-be8f-f24087885981)
 
+### Tarea 3
 ### Imprimir mi nombre
 Algoritmo MyName
 	Imprimir "liby lopez"
 	
 FinAlgoritmo
 
-### Tarea 3
+### Tarea 4
+### Imprimir name & age
+Algoritmo NameAge
+	imprimir "liby nohemi"
+	imprimir "34"
+	
+FinAlgoritmo
+
 

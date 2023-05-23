@@ -17,17 +17,17 @@
 
 ### Tarea 3
 ### Imprimir mi nombre
-Algoritmo MyName
-	Imprimir "liby lopez"
+* Algoritmo MyName
+	* Imprimir "liby lopez"
 	
-FinAlgoritmo
+* FinAlgoritmo
 
 ### Tarea 4
 ### Imprimir name & age
-Algoritmo NameAge
-	imprimir "liby nohemi"
-	imprimir "34"
+* Algoritmo NameAge
+	* imprimir "liby nohemi"
+	* imprimir "34"
 	
-FinAlgoritmo
+* FinAlgoritmo
 
 

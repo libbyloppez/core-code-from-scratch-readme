@@ -14,3 +14,12 @@
 ### Tarea 2
 ### Tazon cereal con leche
 ![image](https://github.com/libbyloppez/core-code-from-scratch-readme/assets/132409571/28eac37f-effe-456c-be8f-f24087885981)
+
+### Imprimir mi nombre
+Algoritmo MyName
+	Imprimir "liby lopez"
+	
+FinAlgoritmo
+
+### Tarea 3
+

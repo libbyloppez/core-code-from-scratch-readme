@@ -34,8 +34,7 @@
 ### MOD  
 * Algoritmo parImpar
 	* leer X
-	* Escribir  (X % 2)
+	* imprimir  (X % 2)
 	
 * FinAlgoritmo
-* 
 

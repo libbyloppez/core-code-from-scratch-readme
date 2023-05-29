@@ -32,3 +32,10 @@
 
 ### Tareea   5 
 ### MOD  
+* Algoritmo parImpar
+	* leer X
+	* Escribir  (X % 2)
+	
+* FinAlgoritmo
+* 
+

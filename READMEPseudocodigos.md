@@ -35,6 +35,7 @@
 * Algoritmo parImpar
 	* leer X
 	* imprimir  (X % 2)
-	
+	       
 * FinAlgoritmo
+![image](https://github.com/libbyloppez/core-code-from-scratch-readme/assets/132409571/0d7d5ec3-3802-4678-bfd2-da841be5b120)
 

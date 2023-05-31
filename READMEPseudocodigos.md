@@ -43,3 +43,18 @@
 ! [ imagen] ( https://github.com/libbyloppez/core-code-from-scratch-readme/assets/132409571/0d7d5ec3-3802-4678-bfd2-da841be5b120)
 
 ### tarea 7
+### Tablas de verdad
+V & V = V ✅ 
+V & F = F ✅ 
+F & V = F ❌
+F & F = F ✅ 
+V | V = V ✅  
+V | F = F ❌
+F | V = V ✅
+F | F = F ✅
+~V = V	  ❌
+~F = V	  ✅
+(V & F) | (~F) = V ✅
+(V | F ) & (F | F) = V  ❌
+~((V | F ) & (F | F)) & F = V ❌
+~((V | F ) & (F | F)) & V = F ❌

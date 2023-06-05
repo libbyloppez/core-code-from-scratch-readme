@@ -58,3 +58,13 @@
 * (V | F ) & (F | F) = V  ❌
 * ~((V | F ) & (F | F)) & F = V ❌
 * ~((V | F ) & (F | F)) & V = F ❌
+
+# Tarea 8
+### Algoritmo boolean
+	* a <- 5 == 3 // la variable "a" es falso.
+	* b <- 4 <> 3 // la variable "b" es verdadero.
+	* c <- 7 > 7 // la variable "c" es falso.
+	* d <- 4 < 4 // la variable "d" es falso.
+	* e <- 100 <= 90 // la variable "e" es falso.
+	* f <- 40 >= 40 // la variable "f" es verdadero.
+FinAlgoritmo

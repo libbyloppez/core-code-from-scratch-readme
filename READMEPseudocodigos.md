@@ -68,3 +68,17 @@
 	* e <- 100 <= 90 // la variable "e" es falso.
 	* f <- 40 >= 40 // la variable "f" es verdadero.
 FinAlgoritmo
+
+# Tarea 9
+###Algoritmo parImpar 
+	Definir x Como entero
+	
+	Escribir "Ingresa cualquier número: ";
+		leer x;
+		si x mod 2 == 0 Entonces
+			Escribir "número:" , n " Es par."; 
+		sino 
+			Escribir "número:", n " Es impar."
+			
+		FinSi
+FinAlgoritmo

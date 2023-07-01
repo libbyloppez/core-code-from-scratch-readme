@@ -1,4 +1,4 @@
-# tarea
+# tarea 1
 # Calculadora Simple
 
 ```Algoritmo calculadoraSimple
@@ -33,7 +33,24 @@
 FinAlgoritmo
 ```
 
-# Tarea
+# Tarea 2
+# Número especial
+```Algoritmo NumeroEspecial
+	Leer num
+	si num == 100 Entonces
+		Escribir "Este es un numero especial. "
+	SiNo
+		si num < 1000 & num % 10 == 0 Entonces
+			Escribir "Este es un numero casi especial. "
+		sino 
+			Escribir "Este es un numero regular. "
+		FinSi
+	FinSi
+	
+FinAlgoritmo
+```
+
+# Tarea 3
 # Calculadora Simple con swuitch
 
 Algoritmo calculadoraSimple  

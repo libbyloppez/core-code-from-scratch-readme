@@ -1,7 +1,8 @@
 # tarea 1
 # Calculadora Simple
 
-``` Algoritmo calculadoraSimple
+```
+ Algoritmo calculadoraSimple
 	Imprimir "***Calculadora Simple***"
 	Imprimir "ingrese primer numero"
 	leer n1
@@ -35,7 +36,9 @@ FinAlgoritmo
 
 # Tarea 2
 # Número especial
-```Algoritmo NumeroEspecial
+
+```
+Algoritmo NumeroEspecial
 	Leer num
 	si num == 100 Entonces
 		Escribir "Este es un numero especial. "
@@ -53,6 +56,7 @@ FinAlgoritmo
 # Tarea 3
 # Calculadora Simple con swuitch
 
+```
 Algoritmo calculadoraSimple  
 	Escribir "¿que operacion quiere realizar? (suma/resta/multiplicacion/division)"
 	Leer operacion
@@ -82,5 +86,6 @@ Algoritmo calculadoraSimple
 			Escribir n1 / n2	
 			
 	FinSegun
-FinAlgoritmo 
+FinAlgoritmo
+```
 

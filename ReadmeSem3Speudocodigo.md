@@ -1,7 +1,7 @@
 # tarea 1
 # Calculadora Simple
 
-```Algoritmo calculadoraSimple
+``` Algoritmo calculadoraSimple
 	Imprimir "***Calculadora Simple***"
 	Imprimir "ingrese primer numero"
 	leer n1

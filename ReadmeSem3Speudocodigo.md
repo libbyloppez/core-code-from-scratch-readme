@@ -1,5 +1,40 @@
+# tarea
+### Calculadora Simple
+
+```Algoritmo calculadoraSimple
+	Imprimir "***Calculadora Simple***"
+	Imprimir "ingrese primer numero"
+	leer n1
+	Imprimir "ingrese segundo numero"
+	leer n2
+	Imprimir "ingrese una operacion: +.-,*,/"
+	leer operacion
+	Si operacion == "+" | operacion == "-" | operacion == "*" | operacion == "/" Entonces
+		Imprimir "Procesando: " + ConvertirATexto(n1) + " " + operacion + " " + ConvertirATexto(n2) 
+			si operacion == "+" Entonces
+			Imprimir "resultado: " + ConvertirATexto(n1 + n2)
+		sino 
+			si operacion == "-" Entonces
+				Imprimir "resultado: " + convertirATexto(n1-n2)
+			sino 
+				si operacion == "*" Entonces
+					Imprimir "resultado: " + convertirATexto(n1 * n2)
+					SiNo
+						Imprimir  "resultado: " + convertirATexto(n1 / n2)
+					FinSi
+			FinSi
+		FinSi
+		
+	Sino 
+		Imprimir " Operación no válida" 
+	finsi
+	
+	
+FinAlgoritmo
+```
+
 ### Tarea
-# Calculadora Simple
+# Calculadora Simple con swuitch
 
 Algoritmo calculadoraSimple  
 	Escribir "¿que operacion quiere realizar? (suma/resta/multiplicacion/division)"

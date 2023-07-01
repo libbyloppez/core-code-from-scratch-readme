@@ -1,5 +1,5 @@
 # tarea
-### Calculadora Simple
+# Calculadora Simple
 
 ```Algoritmo calculadoraSimple
 	Imprimir "***Calculadora Simple***"
@@ -33,7 +33,7 @@
 FinAlgoritmo
 ```
 
-### Tarea
+# Tarea
 # Calculadora Simple con swuitch
 
 Algoritmo calculadoraSimple  

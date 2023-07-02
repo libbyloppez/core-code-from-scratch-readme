@@ -89,7 +89,7 @@ Algoritmo calculadoraSimple
 FinAlgoritmo
 ```
 
-# Tarea
+# Tarea 4
 # Programa Multiopción
 ```
 Algoritmo MultiOpcion

@@ -167,3 +167,21 @@ Algoritmo MultiOpcion
 			
 	FinAlgoritmo
 ```
+
+#Tarea 5
+# Tablas de Multiplicar
+```
+Algoritmo TablasDeMultiplicar
+	Definir a,resultado,b Como Entero
+	Escribir "INGRESE CUALQUIER NÚMERO PARA MULTIPLICAR: "
+	Leer b
+	
+	a = 1
+	Mientras a <= 10 Hacer
+		resultado = b*a
+		Escribir b, " * ", a, " = ", resultado
+		a = a + 1
+	FinMientras
+	
+FinAlgoritmo
+```

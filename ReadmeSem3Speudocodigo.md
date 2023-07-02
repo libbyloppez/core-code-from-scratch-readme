@@ -89,3 +89,81 @@ Algoritmo calculadoraSimple
 FinAlgoritmo
 ```
 
+# Tarea
+# Programa Multiopción
+```
+Algoritmo MultiOpcion
+	Escribir "PROGRAMA MULTIOPCION"
+	Escribir "Elija cualquiera de las 3 opciones: "
+	Escribir "-> Opción 1- Suma de dos números."
+	Escribir "-> Opción 2- Longitud de un texto."
+	Escribir "-> Opción 3- Día de la semana."
+	Escribir "INGRESE UNA OPCION: "
+	leer a
+	
+	Segun a Hacer
+	
+		1: Escribir "Ingrese primer número."
+			Leer b
+			Escribir "Ingrese segundo número."
+			Leer c
+			suma<-b+c
+			Escribir "Sumando los números = ", suma
+			
+		2: Escribir "Ingrese un texto"
+			leer d 
+			largo<-longitud (d)
+			Escribir "La Longitud del texto es: ", largo
+			
+		3:
+			
+			Definir día Como Entero
+			Escribir "Día de la semana, ingrese un número del 1 al 7"
+			Leer día 
+	
+	Si día ==1 Entonces
+		Escribir "Lunes"
+		Sino
+	FinSi
+	
+	Si día ==2 Entonces
+		Escribir "Martes"
+		Sino
+					FinSi
+		
+			Si día ==3 Entonces
+				Escribir "Miércoles"
+				Sino
+			FinSi
+			
+			Si día ==4 Entonces
+				Escribir "Jueves"
+				Sino
+			FinSi
+			
+			Si día ==5 Entonces
+				Escribir "Viernes"
+				Sino
+			Finsi
+			
+			Si día ==6 Entonces
+				Escribir "Sábado"
+				Sino
+			FinSi
+			
+			Si día ==7 Entonces
+				Escribir "Domingo"
+			sino
+			
+			Finsi
+		De Otro Modo:
+			Escribir "no es opcion"
+			
+			
+	FinSegun
+	
+			
+			
+			
+	FinAlgoritmo
+```

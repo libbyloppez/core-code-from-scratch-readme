@@ -189,7 +189,7 @@ FinAlgoritmo
 # Tarea 6
 # CALCULADORA CON DO WHILE
 ```
-Algoritmo sin_titulocalculadoraSimple
+Algoritmo calculadoraSimple
 	Repetir
 	Imprimir "ingrese primer numero"
 	leer n1

@@ -168,7 +168,7 @@ Algoritmo MultiOpcion
 	FinAlgoritmo
 ```
 
-#Tarea 5
+# Tarea 5
 # Tablas de Multiplicar
 ```
 Algoritmo TablasDeMultiplicar
@@ -182,6 +182,44 @@ Algoritmo TablasDeMultiplicar
 		Escribir b, " * ", a, " = ", resultado
 		a = a + 1
 	FinMientras
+	
+FinAlgoritmo
+```
+
+# Tarea 6
+# CALCULADORA CON DO WHILE
+```
+Algoritmo sin_titulocalculadoraSimple
+	Repetir
+	Imprimir "ingrese primer numero"
+	leer n1
+	Imprimir "ingrese segundo numero"
+	leer n2
+	Imprimir "ingrese una operacion: +.-,*,/"
+	leer operacion
+	Si operacion == "+" | operacion == "-" | operacion == "*" | operacion == "/" Entonces
+		Imprimir "Procesando: " + ConvertirATexto(n1) + " " + operacion + " " + ConvertirATexto(n2) 
+		si operacion == "+" Entonces
+			Imprimir "resultado: " + ConvertirATexto(n1 + n2)
+		sino 
+			si operacion == "-" Entonces
+				Imprimir "resultado: " + convertirATexto(n1-n2)
+			sino 
+				si operacion == "*" Entonces
+					Imprimir "resultado: " + convertirATexto(n1 * n2)
+				SiNo
+					Imprimir  "resultado: " + convertirATexto(n1 / n2)
+				FinSi
+			FinSi
+		FinSi
+		
+	Sino 
+		Imprimir " Operación no válida" 
+	finsi
+	
+	Imprimir "Desea continuar? SI / NO"
+	Leer continuar
+   Hasta Que continuar == "NO" O continuar == "no"
 	
 FinAlgoritmo
 ```

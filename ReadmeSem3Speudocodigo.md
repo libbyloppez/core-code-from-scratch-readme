@@ -1,5 +1,5 @@
-# tarea 1
-# Calculadora Simple
+# Tarea 1
+# CALCULADORA SIMPLE
 
 ```
  Algoritmo calculadoraSimple
@@ -35,7 +35,7 @@ FinAlgoritmo
 ```
 
 # Tarea 2
-# Número especial
+# NÚMERO ESPECIAL.
 
 ```
 Algoritmo NumeroEspecial
@@ -54,7 +54,7 @@ FinAlgoritmo
 ```
 
 # Tarea 3
-# Calculadora Simple con swuitch
+# CALCULADORA SIMPLE CON SWICH.
 
 ```
 Algoritmo calculadoraSimple  
@@ -90,7 +90,7 @@ FinAlgoritmo
 ```
 
 # Tarea 4
-# Programa Multiopción
+# PROGRAMA MULTIOPCION.
 ```
 Algoritmo MultiOpcion
 	Escribir "PROGRAMA MULTIOPCION"
@@ -169,7 +169,7 @@ Algoritmo MultiOpcion
 ```
 
 # Tarea 5
-# Tablas de Multiplicar
+# TABLA DE MULTIPLICAR.
 ```
 Algoritmo TablasDeMultiplicar
 	Definir a,resultado,b Como Entero
@@ -223,3 +223,21 @@ Algoritmo calculadoraSimple
 	
 FinAlgoritmo
 ```
+
+# Tarea 7
+# TABLA DE MULTIPLICAR CON BUCLE FOR.
+```
+Algoritmo TablaMultiplicarBucleFor
+	Escribir "Ingrese el número a multiplicar: ";
+	Leer tabla;
+	Escribir "Ingrese hasta que número: "
+	Leer numero;
+	Para i <- 1 Hasta numero Hacer
+		resultado<-1 * tabla;
+		Escribir tabla, " * " , i, " = ", resultado;
+	FinPara
+	
+	
+FinAlgoritmo
+```
+

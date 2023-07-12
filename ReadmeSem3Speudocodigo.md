@@ -240,4 +240,35 @@ Algoritmo TablaMultiplicarBucleFor
 	
 FinAlgoritmo
 ```
+# Tarea 8
+# NUMEROS ASCENDENTES Y DESCENDENTES
+```
+Algoritmo numerosAscendentesYDescendentes
+	escribir 'Ingrese un número:'
+	leer numero
+	Escribir 'Opción 1. Números ascendentes:'
+	Escribir 'Opción 2. Números descendentes:'
+	
+	leer opcion
+	segun opcion Hacer
+		
+	1:
+		imprimir'Números ascendentes'
+		Para i<-1 Hasta numero Con Paso 1 Hacer
+			imprimir (i);
+		Fin Para
+	2:
+		imprimir'Números descendentes'
+		
+		Para i<-numero Hasta 1 Con Paso -1 Hacer
+		imprimir (i);
+		Fin Para
+	De Otro Modo:
+		Imprimir "Elija 1 o 2"
+FinSegun
 
+		
+		
+
+FinAlgoritmo
+```

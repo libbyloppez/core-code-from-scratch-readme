@@ -306,3 +306,37 @@ Algoritmo saludos
 	
 FinAlgoritmo
 ```
+# Tarea 9
+# SALUDOS SEGUN LA HORA
+```
+Algoritmo saludos
+	
+	imprimir 'Hora del día'
+	cantidad<-0
+	continuar<-'si'
+	Mientras continuar == 'si'  Hacer
+		imprimir 'ingrese la hora (0-23):'
+		leer hora 
+		si hora <= 12 entonces 
+			imprimir'Buenos Días!'
+		SiNo
+			si hora <= 18 Entonces
+				imprimir 'Buenas Tardes!'
+			sino 
+				Imprimir "Buenas noches!"
+				
+			FinSi
+			
+		FinSi
+		cantidad<-cantidad  +1
+		imprimir 'desea continuar, si/no?'
+		leer continuar 
+		
+		
+	Fin Mientras
+	
+	imprimir 'Total de saludos:' + ConvertirATexto(cantidad)
+	
+	
+FinAlgoritmo
+```

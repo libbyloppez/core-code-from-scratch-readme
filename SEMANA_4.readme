@@ -1,1 +1,26 @@
-
+# Tarea 1
+# VENTAS POR COMISION
+```
+Algoritmo VentasPorComision
+	Definir total, cantidad, i, valr, comisionVentas Como Entero
+	Definir comision como real
+	i<-1
+	comision<-0
+	Escribir "Ventas realizadas en el mes:"
+	Leer  cantidad
+	Mientras (i<=cantidad) Hacer
+		Escribir "Ingrese la venta ", i ":"
+		Leer valr
+		total<-total+valr
+		i<-i+1
+	FinMientras
+	Si (total>3000) Entonces
+		comision<-total*0.10
+		comisionVentas<-total+comision
+		Escribir "La comisión fue: ",comision
+		Escribir "El total con comisión es: ",comisionVentas
+	FinSi
+	Escribir "El total en ventas es: ",total
+FinAlgoritmo
+```
+(revisar codigo ya que solo permite numeros enteros)

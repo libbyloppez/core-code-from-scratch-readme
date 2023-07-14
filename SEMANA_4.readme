@@ -53,4 +53,36 @@ FinAlgoritmo
 ```
 
 # Tarea 3
-# 
+# NOMBRE COMPLETO
+```
+Algoritmo nombreCompleto
+	Definir nombre Como Caracter
+	Definir n,x,c Como Entero
+	Escribir "Escribe tu nombre: "
+	Leer nombre 
+	n = longitud(nombre)
+	c = 0
+	para x = 1 Hasta n Con Paso 1 Hacer
+		si  x == 1 Entonces
+			Escribir Mayusculas(Subcadena(nombre,x,x)) Sin Saltar
+		SiNo
+			si Subcadena(nombre,x,x) == " " Entonces
+				c = 1
+			SiNo
+				si c == 1 Entonces
+					Escribir " ",Mayusculas(Subcadena(nombre,x,x)) Sin Saltar
+					c = 0
+				SiNo
+					Escribir Subcadena(nombre,x,x) Sin Saltar
+					
+					
+				FinSi
+				
+			FinSi
+		FinSi
+	FinPara
+	
+	Escribir " "
+FinAlgoritmo
+
+```

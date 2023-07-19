@@ -114,7 +114,44 @@ Algoritmo  Craps1
 		
 	FinPara
 ```
+
+# Tarea 5
+# DISTACIA A CERO
+```
+Algoritmo DistanciaACero
+	definir cant, cantTrunc Como Real
+	Escribir "Escriba un numero"
+	leer cant
+	cantTrunc = Trunc(cant)
+	Dimension nums[cant]
+
+	Para i<-1 Hasta 5 Con Paso 1 Hacer
+		Escribir "Escribir un numero"
+		Leer nums[i]
+		
+		Escribir abs(i)
+		Escribir Trunc(-i)
+		Escribir redon(i)
+		
+	FinPara
+
+	mayr<-nums[i]
 	
+	si (nums[i]>mayr) Entonces
+		mayr<-nums[i]
+	FinSi
+	si (nums[i]>menr) Entonces
+		menr<-nums[i]
+	
+	FinSi
+Escribir "Este es el mas lejano a cero."
+
+FinAlgoritmo
+```
+(codigo incompleto)	
+
+# Tarea 6
+# 
 	
 
 	

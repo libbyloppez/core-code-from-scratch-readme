@@ -151,7 +151,34 @@ FinAlgoritmo
 (codigo incompleto)	
 
 # Tarea 6
-# 
+# LANZAR MONEDAS
+```
+Algoritmo LanzarMoneda
+Definir x como entero
+		Imprimir "Ingrese el nombre de primer jugador"
+		Leer nombre
+		Imprimir "Escriba la cantidad para jugar"
+		leer cantidad
+		
+		
+		Imprimir "Ingrese el nombre del 2do. jugador"
+		Leer nombre
+		Imprimir "Escriba la cantidad para jugar "
+		Leer cantidad
+		
+		Escribir azar(2)
+		Escribir Aleatorio(1,2)
+		Imprimir "Jugador ganador ", Mayusculas(nombre), " cantidad que gana: ", cantidad
+		
+		
+
+	
+FinAlgoritmo
+```
+(completar codigo)
+
+# Tarea 7
+#
 	
 
 	

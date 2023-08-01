@@ -154,28 +154,38 @@ FinAlgoritmo
 # LANZAR MONEDAS
 ```
 Algoritmo LanzarMoneda
-Definir x como entero
-		Imprimir "Ingrese el nombre de primer jugador"
-		Leer nombre
-		Imprimir "Escriba la cantidad para jugar"
-		leer cantidad
-		
-		
-		Imprimir "Ingrese el nombre del 2do. jugador"
-		Leer nombre
-		Imprimir "Escriba la cantidad para jugar "
-		Leer cantidad
-		
-		Escribir azar(2)
-		Escribir Aleatorio(1,2)
-		Imprimir "Jugador ganador ", Mayusculas(nombre), " cantidad que gana: ", cantidad
-		
-		
-
+    Definir nombrePrimerJugador, nombreSegundoJugador como Cadena
+    Definir cantidadPrimerJugador, cantidadSegundoJugador como Entero
 	
+    Imprimir "Ingrese el nombre del primer jugador"     // Pide al usuario que ingrese el nombre del primer jugador
+    Leer nombrePrimerJugador                           // Lee el nombre del primer jugador ingresado por el usuario
+    Imprimir "Escriba la cantidad para jugar"          // Solicita al usuario que ingrese la cantidad con la que desea jugar
+    Leer cantidadPrimerJugador                         // Lee la cantidad ingresada por el primer jugador
+	
+    Imprimir "Ingrese el nombre del segundo jugador"    // Pide al usuario que ingrese el nombre del segundo jugador
+    Leer nombreSegundoJugador                           // Lee el nombre del segundo jugador ingresado por el usuario
+    Imprimir "Escriba la cantidad para jugar"           // Solicita al usuario que ingrese la cantidad con la que desea jugar
+    Leer cantidadSegundoJugador                         // Lee la cantidad ingresada por el segundo jugador
+	
+    Si cantidadPrimerJugador <= 0 y cantidadSegundoJugador <= 0 Entonces
+        Imprimir "Juego Cancelado"                      // Si ambas cantidades son menores o iguales a cero, imprime "Juego Cancelado"
+    Sino
+        Si cantidadPrimerJugador <= 0 Entonces
+            Imprimir "Gana: ", nombreSegundoJugador     // Si la cantidad del primer jugador es menor o igual a cero, imprime "Gana: " seguido del nombre del segundo jugador
+        Sino Si cantidadSegundoJugador <= 0 Entonces
+				Imprimir "Gana: ", nombrePrimerJugador   // Si la cantidad del segundo jugador es menor o igual a cero, imprime "Gana: " seguido del nombre del primer jugador
+			Sino
+				Definir ganadorAleatorio como Entero      // Si ninguna cantidad es menor o igual a cero, define la variable "ganadorAleatorio" como entero
+				ganadorAleatorio = Aleatorio(1, 2)         // Genera un número aleatorio (1 o 2) para simular el lanzamiento de la moneda
+				Si ganadorAleatorio = 1 Entonces
+					Imprimir "Jugador ganador: ", nombrePrimerJugador, ", cantidad que gana: ", cantidadPrimerJugador     // Si el número aleatorio es 1, imprime el nombre del primer jugador como ganador junto con la cantidad que gana
+				Sino
+					Imprimir "Jugador ganador: ", nombreSegundoJugador, ", cantidad que gana: ", cantidadSegundoJugador   // Si el número aleatorio es 2, imprime el nombre del segundo jugador como ganador junto con la cantidad que gana
+				FinSi
+			FinSi
+		FinSi
+	FinSi
 FinAlgoritmo
-```
-(completar codigo)
 
 # Tarea 7
 #

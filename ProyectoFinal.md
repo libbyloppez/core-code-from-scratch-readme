@@ -100,7 +100,10 @@
 }
 ```
 
-### PROYECTO DASHBOARD
+### PROYECTO EN LOOKER STUDIO
+### DASHBOARD
+
+https://lookerstudio.google.com/reporting/a8a20ec5-b08b-4c4b-bbb4-adaf52c1ee04/page/iYpYD/edit
 
 
     

@@ -53,6 +53,8 @@
 
 }
 
+```
+
 .display{
     width: 100%;
     height: 40px;
@@ -99,6 +101,9 @@
     transform: scale(1.07);
 }
 ```
+
+### PROYECTO DASHBOARD
+
 
     
 

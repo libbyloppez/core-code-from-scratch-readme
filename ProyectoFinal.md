@@ -41,3 +41,64 @@
       </form>
  </div>
 </body>
+
+### CSS
+.contenedor{
+    background-color: rgba(225, 20, 48, 0.824);
+    width: max-content;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.display{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 10px;
+    color:white;
+    background-color:rgb(186, 178, 184) ;
+
+    
+}
+
+.button1{
+    
+    width: 50px;
+    height: 50px;
+    margin-bottom: 4px;
+    color:white;
+    background-color: rgb(248, 13, 201);
+    border: 2px solid #e6f1e6;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.button1:hover{
+    cursor: pointer;
+    background-color: rgb(203, 46, 49);
+    transition: 0.5s;
+    transform: scale(1.3);
+}
+
+.button2{
+    width: 100%;
+    height: 50px;
+    color:white;
+    background-color: rgb(248, 13, 201);
+    border: 2px solid #f0efe9;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.button2:hover{
+    cursor: pointer;
+    background-color: rgb(241, 9, 83);
+    transition: 0.5s;
+    transform: scale(1.07);
+}
+
+    
+
+
+
+

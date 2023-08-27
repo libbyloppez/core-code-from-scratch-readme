@@ -43,6 +43,8 @@
 </body>
 
 ### CSS
+
+```
 .contenedor{
     background-color: rgba(225, 20, 48, 0.824);
     width: max-content;
@@ -96,6 +98,7 @@
     transition: 0.5s;
     transform: scale(1.07);
 }
+```
 
     
 
